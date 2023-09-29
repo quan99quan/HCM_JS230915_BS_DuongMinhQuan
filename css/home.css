@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header img {
+    width: 100%;
+    position: relative;
+
+}
+
+                                          /*nav*/
+header nav {
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: space-around;
+    padding: 0 130px;
+}
+
+.nav__paragraph--first {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.nav__paragraph--second {
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.nav__paragraph--third {
+    margin-top: -8px;
+    margin-left: 50px;
+}
+
+.nav__paragraph--third button {
+    color: white;
+    border: 1px solid #ffbe34;
+    background-color: #ffbe34;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+                                       /*main*/
+main {
+    position: absolute;
+    top: 35%;
+    color: white;
+    width: 450px;
+    left: 140px;
+
+}
+
+main h1 {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+main button {
+    color: white;
+    border: 1px solid #ffbe34;
+    background-color: #ffbe34;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+main .main--circle {
+    display: flex;
+    margin-top: 200px;
+    gap: 5px;
+    align-items: center;
+
+}
+
+main div .main--circle1, main div .main--circle2, main div .main--circle3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: #f0f2f4;
+    gap: 30px;
+
+}
+
+main div .main--circle3 {
+    background-color: #ffbe34;
+    width: 16px;
+    height: 16px;
+}
+                                                  /*aside*/
+aside {
+    background-color: #212832;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: -5px;
+}
+
+aside img {
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aside__paragraph {
+    color: white;
+    width: 500px;
+}
+
+aside .aside__paragraph button {
+    color: white;
+    border: 1px solid #ffbe34;
+    background-color: #ffbe34;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+aside .aside__paragraph h2 {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+aside .aside__paragraph p {
+    line-height: 25px;
+}
